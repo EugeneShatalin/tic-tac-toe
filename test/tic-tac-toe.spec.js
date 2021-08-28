@@ -1194,7 +1194,7 @@ describe('TicTacToe', () => {
             game.nextTurn(0, 2);
             expect(game.isDraw()).to.equal(false);
 
-            game.nextTurn(1, 0);
+            game.nextTurn(1,+ 0);
             expect(game.isDraw()).to.equal(false);
 
             game.nextTurn(2, 2);
